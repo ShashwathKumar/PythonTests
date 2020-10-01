@@ -1,0 +1,161 @@
+{
+    "update": "id:slingstone:offnet::8d4f499c-4f22-32f2-b43c-2fd015ac704a",
+    "create": true,
+    "fields": {
+        "hosted": {
+            "assign": "false"
+        },
+        "topicSet": {
+            "assign": {
+                "61a3d18b-7d8a-3994-838f-19d632e31190": 108273
+            }
+        },
+        "title": {
+            "assign": "'We love telling good stories': Howard County's role in the Underground Railroad"
+        },
+        "city_woeids": {
+            "assign": ["2358820"]
+        },
+        "property_valids": {
+            "assign": ["yfinance-en_us", "ynews-en_us", "ysports-en_us", "yhomerun-en_us", "yfrontpage-en_us", "ylifestyles-en_us", "ylifestyle-en_us", "ytech-en_us", "att-en_us", "yhighlander-en_us", "yfrontpagemorevideos-en_us", "yall-en_us", "ycelebrity-en_us", "ygma-en_us", "ybeauty-en_us", "ystyle-en_us", "ycricket-en_us", "ymovies-en_us", "yentertainment-en_us", "ynewsroom-en_us", "huffpost-en_us", "ynow-en_us", "yvideo-en_us", "ymakers-en_us", "ymoney-en_us"]
+        },
+        "newsy": {
+            "assign": 0.78125
+        },
+        "nrtgmp": {
+            "assign": 0.0
+        },
+        "quality": {
+            "assign": 0.3452720046043396
+        },
+        "cap_features": {
+            "assign": {
+                "w-Howard_County,_Maryland": 8610,
+                "w-Howard_Community_College": 7580,
+                "w-Underground_Railroad": 8610,
+                "y-yct-001000075": 7979,
+                "y-yct-001000031": 8371,
+                "y-yct-001000780": 6864,
+                "w-Harriet_Tubman": 8610,
+                "w-Dorchester_County,_Maryland": 5810,
+                "w-History_of_Maryland": 4680
+            }
+        },
+        "doc_len": {
+            "assign": 1449
+        },
+        "dam_score": {
+            "assign": 0.695067
+        },
+        "adult": {
+            "assign": 0.0012150700204074383
+        },
+        "dwell_time": {
+            "assign": 289.1020202636719
+        },
+        "uuid": {
+            "assign": "8d4f499c-4f22-32f2-b43c-2fd015ac704a"
+        },
+        "property_gmps": {
+            "assign": {
+                "hrnative": 0
+            }
+        },
+        "publisher": {
+            "assign": "Baltimore Sun"
+        },
+        "pre_game": {
+            "assign": 0.0
+        },
+        "dma_woeids": {
+            "assign": ["24700964"]
+        },
+        "fp_experiments": {
+            "assign": ["s2domains", "hdt01", "twitter00", "lcp_us_01", "sieve_homepage_top", "sieve_sports_top", "localnewsdomains", "localdomains01"]
+        },
+        "content_type": {
+            "assign": "rss"
+        },
+        "city_woeid_set": {
+            "assign": {
+                "2358820": 1
+            }
+        },
+        "timeline_ids": {
+            "assign": ["7a430833-aacf-410d-9e6c-2c44d9c0f03d", "6b366716-b490-4f37-8f32-87fc21574089"]
+        },
+        "embargo": {
+            "assign": 0
+        },
+        "story_cluster": {
+            "assign": "8d4f499c-4f22-32f2-b43c-2fd015ac704a"
+        },
+        "appropriateness": {
+            "assign": 0
+        },
+        "nrt_clicks_by_context": {
+            "assign": {
+                "hrnative": 0
+            }
+        },
+        "bazooka": {
+            "assign": {
+                "bz-bt__retail/books/non_fiction/biography_and_autobiography": 8916,
+                "bz-bt__international_interest/hispanic_targeting/inferred_by_language_preference": 9091,
+                "bz-bt__retail/books/non_fiction/arts_music_and_entertainment": 10000,
+                "bz-bt__international_interest/hispanic_targeting": 9111,
+                "bz-bt__retail/books/non_fiction/history": 9879
+            }
+        },
+        "gravitas": {
+            "assign": 0.11054547876119614
+        },
+        "summarizability": {
+            "assign": 0.9428175687789917
+        },
+        "nrt_views_by_context": {
+            "assign": {
+                "hrnative": 2
+            }
+        },
+        "publish_time": {
+            "assign": 1565344808000
+        },
+        "publisher_id": {
+            "assign": "baltimoresun.com"
+        },
+        "url": {
+            "assign": "https://www.baltimoresun.com/maryland/howard/bs-md-ho-howard-stories-0811-20190809-xtkaf4vmpfgxlmnvjtfhw6bfee-story.html"
+        },
+        "title_tokens": {
+            "assign": {
+                "love": 5000,
+                "telling": 5000,
+                "role": 5000,
+                "railroad": 5000,
+                "underground": 5000,
+                "county": 5000,
+                "howard": 5000,
+                "good": 5000,
+                "story": 5000
+            }
+        },
+        "sourceid": {
+            "assign": "baltimoresun.com"
+        },
+        "dqm_score": {
+            "assign": 0.8160849
+        },
+        "local_score": {
+            "assign": 1.0
+        },
+        "category_labels": {
+            "assign": {
+                "Entertainment": 10000
+            }
+        },
+        "spam": {
+            "assign": 0.0492216981947422
+        }
+    }
+}

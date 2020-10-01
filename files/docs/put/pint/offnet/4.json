@@ -1,0 +1,29 @@
+{
+    "put": "id:slingstone:offnet::b0503e89-5a9f-30bd-886c-521ac332fddb",
+    "fields": {
+        "uuid": "b0503e89-5a9f-30bd-886c-521ac332fddb",
+        "hosted": "false",
+        "publisher": "Gamekult",
+        "title": "Pour ses 20 ans, System Shock 2 se voit offrir une Enhanced Edition",
+        "fp_experiments": ["frfrcp02", "frfrcp01"],
+        "content_type": "rss",
+        "property_valids": ["yfinance-fr_ca", "yfinance-fr_fr", "yfinance-fr_be", "ynews-fr_ca", "ynews-fr_fr", "ynews-fr_be", "ysports-fr_ca", "ysports-fr_fr", "ysports-fr_be", "yfrontpage-fr_ca", "yfrontpage-fr_fr", "yfrontpage-fr_be", "ylifestyles-fr_ca", "ylifestyles-fr_fr", "ylifestyles-fr_be", "ylifestyle-fr_ca", "ylifestyle-fr_fr", "ylifestyle-fr_be", "ytech-fr_ca", "ytech-fr_fr", "ytech-fr_be", "yatt-fr_ca", "yatt-fr_fr", "yatt-fr_be", "yhighlander-fr_ca", "yhighlander-fr_fr", "yhighlander-fr_be", "yfrontpagemorevideos-fr_ca", "yfrontpagemorevideos-fr_fr", "yfrontpagemorevideos-fr_be", "yall-fr_ca", "yall-fr_fr", "yall-fr_be", "ycelebrity-fr_ca", "ycelebrity-fr_fr", "ycelebrity-fr_be", "ygma-fr_ca", "ygma-fr_fr", "ygma-fr_be", "ybeauty-fr_ca", "ybeauty-fr_fr", "ybeauty-fr_be", "ystyle-fr_ca", "ystyle-fr_fr", "ystyle-fr_be", "ycricket-fr_ca", "ycricket-fr_fr", "ycricket-fr_be", "ymovies-fr_ca", "ymovies-fr_fr", "ymovies-fr_be", "yentertainment-fr_ca", "yentertainment-fr_fr", "yentertainment-fr_be", "ynewsroom-fr_ca", "ynewsroom-fr_fr", "ynewsroom-fr_be", "ynow-fr_ca", "ynow-fr_fr", "ynow-fr_be", "yvideo-fr_ca", "yvideo-fr_fr", "yvideo-fr_be", "ymakers-fr_ca", "ymakers-fr_fr", "ymakers-fr_be", "ymoney-fr_ca", "ymoney-fr_fr", "ymoney-fr_be"],
+        "cluster_topic": "b0503e89-5a9f-30bd-886c-521ac332fddb",
+        "ymedia_category": [],
+        "topics_with_weights": {},
+        "publish_time": 1565591280000,
+        "cap_features": {
+            "w-System_Shock_2": 8000,
+            "w-Ans": 4860,
+            "ph-Gamekult": 3420,
+            "ph-euros": 1210,
+            "ph-System Shock 2": 8000,
+            "ph-mois": 1010,
+            "ph-ans": 4860
+        },
+        "publisher_id": "gamekult.com",
+        "provider_ycts": {},
+        "doc_len": 159,
+        "sourceid": "gamekult.com"
+    }
+}

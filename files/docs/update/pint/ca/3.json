@@ -1,0 +1,149 @@
+{
+    "update": "id:slingstone:ca::3a7f1e34-34a1-3eab-83e5-4d0a571b3068",
+    "create": true,
+    "fields": {
+        "uuid": {
+            "assign": "3a7f1e34-34a1-3eab-83e5-4d0a571b3068"
+        },
+        "hosted": {
+            "assign": "true"
+        },
+        "publisher": {
+            "assign": "Quartz"
+        },
+        "primary_categories": {
+            "assign": ["finance-US"]
+        },
+        "title": {
+            "assign": "US scientists quadrupled milk's shelf life using Soviet technology"
+        },
+        "fp_experiments": {
+            "assign": ["ga", "hosted_ga"]
+        },
+        "content_type": {
+            "assign": "ca_st"
+        },
+        "property_valids": {
+            "assign": ["yfinance-en_us", "yfinance-en_my", "yfinance-en_ph", "ynews-en_us", "ynews-en_my", "ynews-en_ph", "ysports-en_us", "ysports-en_my", "ysports-en_ph", "yhomerun-en_us", "yfrontpage-en_us", "yfrontpage-en_my", "yfrontpage-en_ph", "ylifestyles-en_us", "ylifestyles-en_my", "ylifestyles-en_ph", "ylifestyle-en_us", "ylifestyle-en_my", "ylifestyle-en_ph", "ytech-en_us", "ytech-en_my", "ytech-en_ph", "att-en_us", "yatt-en_my", "yatt-en_ph", "yhighlander-en_us", "yhighlander-en_my", "yhighlander-en_ph", "yfrontpagemorevideos-en_us", "yfrontpagemorevideos-en_my", "yfrontpagemorevideos-en_ph", "yall-en_us", "yall-en_my", "yall-en_ph", "ycelebrity-en_us", "ycelebrity-en_my", "ycelebrity-en_ph", "ybeauty-en_us", "ybeauty-en_my", "ybeauty-en_ph", "ystyle-en_us", "ystyle-en_my", "ystyle-en_ph", "ycricket-en_us", "ycricket-en_my", "ycricket-en_ph", "ymovies-en_us", "ymovies-en_my", "ymovies-en_ph", "yentertainment-en_us", "yentertainment-en_my", "yentertainment-en_ph", "ynewsroom-en_us", "ynewsroom-en_my", "ynewsroom-en_ph", "ynow-en_us", "ynow-en_my", "ynow-en_ph", "yvideo-en_us", "yvideo-en_my", "yvideo-en_ph", "ymakers-en_us", "ymakers-en_my", "ymakers-en_ph", "ymoney-en_us", "ymoney-en_my", "ymoney-en_ph", "aolfrontpage-en_us"]
+        },
+        "embargo": {
+            "assign": 1565283607000
+        },
+        "cluster_topic": {
+            "assign": "32d54d7f-d879-4d4c-9e13-0d35a86f4a3f"
+        },
+        "ymedia_category": {
+            "assign": ["ymedia:category=000000388", "yct:001000333", "ymedia:category=100000002", "yct:001000298", "yct:001000220", "yct:001000341", "ymedia:category=000000071", "ymedia:category=fin_whitelistedproviders", "ymedia:category=000000141", "yct:001000339", "yct:001000217", "yct:001000216"]
+        },
+        "topics_with_weights": {
+            "assign": {}
+        },
+        "quality": {
+            "assign": 0.6067420244216919
+        },
+        "publish_time": {
+            "assign": 1565283607000
+        },
+        "cap_features": {
+            "assign": {
+                "ph-US Virgin Islands": 6310,
+                "w-Market_share": 8910,
+                "ph-chief technology officer": 8510,
+                "ph-competitor": 200,
+                "ph-degrees Celsius": 1670,
+                "ph-target markets": 1270,
+                "ph-Dominican Republic": 3330,
+                "ph-Puerto Rico": 3300,
+                "w-Soviet_Union": 9340,
+                "ph-the hurricane": 130,
+                "w-White_House": 6230,
+                "ph-China": 180,
+                "ph-the taste": 100,
+                "ph-Soviet Union": 9340,
+                "ph-Purdue University": 9650,
+                "ph-technology": 8470,
+                "ph-pasteurization": 4310,
+                "ph-picture books": 990,
+                "ph-insemination": 460,
+                "ph-Millisecond": 6840,
+                "ph-Orlando Gonzalez": 9500,
+                "ph-microbes": 110,
+                "ph-Saint Martin": 2070,
+                "ph-Russia": 510,
+                "w-Orlando_Gonz%c3%a1lez": 9500,
+                "w-The_Scientists": 5340,
+                "ph-Hurricane Maria": 1410,
+                "ph-collaborating": 270,
+                "ph-field trips": 710,
+                "ph-efficacy": 100,
+                "ph-degrees Fahrenheit": 2080,
+                "ph-market share": 8910,
+                "ph-Closer to the edge": 1250,
+                "ph-temperatures": 440,
+                "ph-Campylobacter": 440,
+                "ph-general manager": 450,
+                "ph-The White House": 6230,
+                "ph-The scientists": 5340,
+                "ph-genomics": 70,
+                "ph-United States": 930,
+                "w-Technology": 8470,
+                "ph-Salmonella": 460,
+                "ph-E. coli": 140,
+                "ph-shelf life": 4450,
+                "w-Purdue_University": 9650,
+                "w-United_States_Virgin_Islands": 6310,
+                "ph-population": 270,
+                "w-Millisecond": 6840,
+                "w-Pasteurization": 4310,
+                "ph-category 5 storm": 1040,
+                "ph-quarts": 140,
+                "ph-fresh milk": 8870,
+                "ph-Daddy Yankee": 2240,
+                "ph-refrigeration": 360,
+                "ph-primary school": 930,
+                "y-yct-001000742": 7000,
+                "ph-food poisoning": 2890,
+                "ph-children": 340,
+                "w-Dairy": 8020,
+                "ph-Suiza": 120,
+                "ph-social media": 910,
+                "ph-Cold War": 660,
+                "w-Shelf_life": 4450,
+                "w-Chief_technology_officer": 8510,
+                "ph-The damage": 420,
+                "ph-heat": 510,
+                "ph-dairy industry": 8020,
+                "ph-Listeria": 540,
+                "ph-economic times": 230,
+                "w-Milk": 8870,
+                "ph-large part": 100
+            }
+        },
+        "publisher_id": {
+            "assign": "quartz.com"
+        },
+        "provider_ycts": {
+            "assign": {
+                "py-yct:001000298": 1,
+                "py-yct:001000220": 1,
+                "py-yct:001000341": 1,
+                "py-yct:001000333": 1,
+                "py-yct:001000339": 1,
+                "py-yct:001000216": 1,
+                "py-yct:001000217": 1
+            }
+        },
+        "doc_len": {
+            "assign": 1046
+        },
+        "sourceid": {
+            "assign": "quartz.com"
+        },
+        "adult": {
+            "assign": 0.002242150017991662
+        },
+        "spam": {
+            "assign": 0.09878209978342056
+        }
+    }
+}

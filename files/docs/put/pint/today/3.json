@@ -1,0 +1,38 @@
+{
+	"put": "id:slingstone:today::today-b55aa5a7-df16-3a23-b9d3-780b3ba60f62",
+	"fields": {
+		"expire_time": 1565707127000,
+		"title": "Argentina: derrumbe hist\u00F3rico tras la derrota de Macri",
+		"region": "ES",
+		"property_valids": ["fp_es_es-es"],
+		"modules": ["needtoknow"],
+		"cluster_topic": "6f14dd04-1279-3eb9-bf4e-e1081b51ba47",
+		"language": "es",
+		"sites": ["exclusive_none"],
+		"devices": ["exclusive_none"],
+		"deleted": 0,
+		"cap_features": {
+			"w-Mauricio_Macri": 9980,
+			"w-Argentine_peso": 6490,
+			"w-Cristina_Fern%c3%a1ndez_de_Kirchner": 9930,
+			"y-yct-001000661": 9759,
+			"w-Peso": 6640,
+			"w-La_Derrota": 5470,
+			"w-La_Moneda_Palace": 4590
+		},
+		"categories": ["Finance"],
+		"uuid": "b55aa5a7-df16-3a23-b9d3-780b3ba60f62",
+		"cauuid": "6f14dd04-1279-3eb9-bf4e-e1081b51ba47",
+		"loc_constraints": {},
+		"pin_position": -1,
+		"fp_experiments": ["strategy_false", "ymedia:index=source:creatr", "ymedia:index=1", "ycoke:Finance", "strategy_editorial_packaging"],
+		"tier_duration": [600, 21600],
+		"design_type": [1],
+		"embargo": 1565635127000,
+		"subsites": ["home"],
+		"publish_time": 1565635127000,
+		"url": "https://es.finance.yahoo.com/noticias/el-peso-y-los-mercados-argentinos-se-desploman-tras-la-derrota-de-macri-en-las-primarias-152639346.html",
+		"tier": 0,
+		"eah_id": "id-b55aa5a7-df16-3a23-b9d3-780b3ba60f62"
+	}
+}

@@ -1,0 +1,104 @@
+{
+	"put": "id:slingstone:ca::857805f1-5d20-3885-9a50-ddadb35a1504",
+	"fields": {
+		"hosted": "true",
+		"topicSet": {
+			"27de5e43-d844-3698-bb99-564769896dcf": 109847,
+			"60f73942-c8f9-11e5-bc86-fa163e798f6a": 109847,
+			"5b2061e4-87d9-11e5-93d4-fa163e6f4a7e": 110000,
+			"9a831010-d1d1-11e5-8e2a-fa163e6f4a7e": 110000,
+			"d0ecdfc3-1ee7-31a2-aff0-b62c38711cf1": 110000
+		},
+		"title": "The Latest: Immigrant rights group vows lawsuit vs new rules",
+		"city_woeids": [],
+		"property_valids": ["yfinance-en_us", "ynews-en_us", "ysports-en_us", "yhomerun-en_us", "yfrontpage-en_us", "ylifestyles-en_us", "ylifestyle-en_us", "ytech-en_us", "att-en_us", "yhighlander-en_us", "yfrontpagemorevideos-en_us", "yall-en_us", "ycelebrity-en_us", "ybeauty-en_us", "ystyle-en_us", "ycricket-en_us", "ymovies-en_us", "yentertainment-en_us", "ynewsroom-en_us", "ynow-en_us", "yvideo-en_us", "ymakers-en_us", "ymoney-en_us", "aolfrontpage-en_us"],
+		"newsy": 0.642857015132904,
+		"nrtgmp": 0.01080297026783228,
+		"quality": 0.6000000238418579,
+		"cap_features": {
+			"w-Immigration": 7130,
+			"w-Lawful_permanent_residents_%28United_States%29": 7720,
+			"w-Supplemental_Nutrition_Assistance_Program": 8130,
+			"y-yct-001000661": 9847,
+			"w-New_Rules_%28song%29": 4770,
+			"w-Welfare": 9450,
+			"w-Presidency_of_Donald_Trump": 6570,
+			"w-The_Trump_%28horse%29": 5410,
+			"w-Section_8_%28housing%29": 5230,
+			"w-Donald_Trump": 9880,
+			"w-Ken_Cuccinelli": 8630,
+			"w-Medicaid": 5990,
+			"y-yct-001000700": 8261
+		},
+		"provider_ycts": {
+			"py-yct:001000681": 1
+		},
+		"doc_len": 557,
+		"dam_score": 0.902408,
+		"adult": 0.0061619700863957405,
+		"dwell_time": 100.39600372314453,
+		"uuid": "857805f1-5d20-3885-9a50-ddadb35a1504",
+		"property_gmps": {
+			"news": 26,
+			"hrnative": 0,
+			"omg": 0,
+			"nrt_gmp_metro": 108,
+			"finance": 0
+		},
+		"publisher": "Associated Press",
+		"pre_game": 0.0,
+		"primary_categories": ["news-US"],
+		"dma_woeids": [],
+		"fp_experiments": ["ga", "hosted_ga"],
+		"content_type": "ca_st",
+		"city_woeid_set": {},
+		"tickers": {},
+		"timeline_ids": ["0104036e-efba-4f84-bc29-dbac1db2ba2e"],
+		"embargo": 1565627820000,
+		"story_cluster": "857805f1-5d20-3885-9a50-ddadb35a1504",
+		"appropriateness": 0,
+		"nrt_clicks_by_context": {
+			"news": 47,
+			"hrnative": 114,
+			"omg": 0,
+			"nrt_gmp_metro": 3418,
+			"finance": 0
+		},
+		"primary_categories_set": {
+			"news-US": 1
+		},
+		"bazooka": {
+			"bz-bt__retail/books/non_fiction/health_and_wellness": 7826,
+			"bz-bt__international_interest/hispanic_targeting/inferred_by_language_preference": 6689,
+			"bz-bt__international_interest/hispanic_targeting": 6994,
+			"bz-bt__small_business_and_b2b/b2b/corporate_services": 4688,
+			"bz-bt__miscellaneous/government_and_military": 5877
+		},
+		"ymedia_category": ["ymedia:category=000000036", "ymedia:category=100000002", "yct:001000681", "ymedia:category=000000030"],
+		"gravitas": 0.9926567673683167,
+		"summarizability": 0.9658381342887878,
+		"nrt_views_by_context": {
+			"news": 285,
+			"hrnative": 78,
+			"omg": 1,
+			"nrt_gmp_metro": 25343,
+			"finance": 1
+		},
+		"publish_time": 1565627820000,
+		"publisher_id": "ap.org",
+		"url": "https://news.yahoo.com/latest-trump-administration-defends-green-150406324.html",
+		"title_tokens": {
+			"lawsuit": 5000,
+			"rule": 5000,
+			"immigrant": 5000,
+			"right": 5000,
+			"vow": 5000,
+			"group": 5000
+		},
+		"sourceid": "ap.org",
+		"category_labels": {
+			"politics": 7597
+		},
+		"spam": 0.0492216981947422
+	}
+}

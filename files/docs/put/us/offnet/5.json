@@ -1,0 +1,82 @@
+{
+    "put": "id:slingstone:offnet::7988ec7c-871e-3240-9985-f8c35495750f",
+    "fields": {
+        "hosted": "false",
+        "topicSet": {
+            "186963f0-ead5-33ba-8297-817ea9522a27": 7226,
+            "27de5e43-d844-3698-bb99-564769896dcf": 7516,
+            "60f73942-c8f9-11e5-bc86-fa163e798f6a": 7516,
+            "9a831010-d1d1-11e5-8e2a-fa163e6f4a7e": 7516,
+            "61c44d27-a8f0-3a44-a92a-a65a580d7589": 4938,
+            "6ca9deb5-e00d-36f0-975a-46468ddb39f8": 7226
+        },
+        "title": "Mining region struggles as it faces loss of biggest employer",
+        "city_woeids": ["2490383"],
+        "property_valids": ["yfinance-en_us", "ynews-en_us", "ysports-en_us", "yhomerun-en_us", "yfrontpage-en_us", "ylifestyles-en_us", "ylifestyle-en_us", "ytech-en_us", "att-en_us", "yhighlander-en_us", "yfrontpagemorevideos-en_us", "yall-en_us", "ycelebrity-en_us", "ygma-en_us", "ybeauty-en_us", "ystyle-en_us", "ycricket-en_us", "ymovies-en_us", "yentertainment-en_us", "ynewsroom-en_us", "huffpost-en_us", "ynow-en_us", "yvideo-en_us", "ymakers-en_us", "ymoney-en_us"],
+        "newsy": 0.9420289993286133,
+        "nrtgmp": 0.0,
+        "quality": 0.3452720046043396,
+        "cap_features": {
+            "w-Employment": 7580,
+            "w-Mining": 4690,
+            "y-yct-001000663": 5478,
+            "w-Metaline_Falls,_Washington": 8610,
+            "y-yct-001000661": 8203,
+            "w-Wilderness_area": 4680,
+            "w-Region": 5200,
+            "w-Seattle_metropolitan_area": 5070
+        },
+        "doc_len": 1242,
+        "dam_score": 0.689863,
+        "dwell_time": 164.49600219726562,
+        "uuid": "7988ec7c-871e-3240-9985-f8c35495750f",
+        "property_gmps": {
+            "hrnative": 0
+        },
+        "publisher": "seattlepi.com",
+        "pre_game": 0.0,
+        "dma_woeids": ["24701122"],
+        "fp_experiments": ["s2domains", "hdt01", "twitter00", "lcp_us_01", "sieve_homepage_top", "sieve_sports_top", "localnewsdomains", "localdomains01"],
+        "content_type": "sv",
+        "city_woeid_set": {
+            "2490383": 1
+        },
+        "timeline_ids": ["e4a5b7a0-ba39-4985-b583-2f9108a01980"],
+        "embargo": 0,
+        "story_cluster": "7988ec7c-871e-3240-9985-f8c35495750f",
+        "appropriateness": 0,
+        "nrt_clicks_by_context": {
+            "hrnative": 0
+        },
+        "bazooka": {
+            "bz-bt__travel/destinations/asia/china": 5217,
+            "bz-bt__miscellaneous/science/biomedicine": 8750,
+            "bz-bt__small_business_and_b2b/career_employment": 6917,
+            "bz-bt__travel/destinations/asia/india": 6829,
+            "bz-bt__travel/destinations/asia": 5339
+        },
+        "gravitas": 0.39520183205604553,
+        "summarizability": 0.9664513468742371,
+        "nrt_views_by_context": {
+            "hrnative": 3
+        },
+        "publish_time": 1565468102000,
+        "publisher_id": "seattlepi.com",
+        "url": "https://www.seattlepi.com/news/us/article/Mining-region-struggles-as-it-faces-loss-of-14295487.php",
+        "title_tokens": {
+            "big": 5000,
+            "loss": 5000,
+            "face": 5000,
+            "employer": 5000,
+            "mining": 5000,
+            "region": 5000,
+            "struggle": 5000
+        },
+        "sourceid": "seattlepi.com",
+        "local_score": 1.0,
+        "category_labels": {
+            "us": 9333
+        },
+        "spam": 0.22643400728702545
+    }
+}

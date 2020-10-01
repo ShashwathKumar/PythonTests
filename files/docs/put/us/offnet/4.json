@@ -1,0 +1,73 @@
+{
+    "put": "id:slingstone:offnet::d73371e8-7442-383a-97ea-fdb88108ac49",
+    "fields": {
+        "hosted": "false",
+        "topicSet": {
+            "75050294-fe8a-3e8a-a640-638784b44df2": 7693,
+            "7fa3e636-f5f1-3e5e-bc73-e15fa8fa8d10": 108367,
+            "67899837-8748-38ed-8cab-f0cada2d22a0": 108367,
+            "aba93ccf-426d-3a3d-bfb0-e9bf5b3e1753": 5387
+        },
+        "title": "Norwegian plane damaged on pushback from London's Gatwick",
+        "city_woeids": ["2487956"],
+        "property_valids": ["yfinance-en_us", "ynews-en_us", "ysports-en_us", "yhomerun-en_us", "yfrontpage-en_us", "ylifestyles-en_us", "ylifestyle-en_us", "ytech-en_us", "att-en_us", "yhighlander-en_us", "yfrontpagemorevideos-en_us", "yall-en_us", "ycelebrity-en_us", "ygma-en_us", "ybeauty-en_us", "ystyle-en_us", "ycricket-en_us", "ymovies-en_us", "yentertainment-en_us", "ynewsroom-en_us", "huffpost-en_us", "ynow-en_us", "yvideo-en_us", "ymakers-en_us", "ymoney-en_us"],
+        "newsy": 0.642857015132904,
+        "quality": 0.3452720046043396,
+        "cap_features": {
+            "w-Pushback": 7580,
+            "w-Gatwick_Airport": 9460,
+            "y-yct-001000992": 6446,
+            "w-Auxiliary_power_unit": 5070,
+            "w-Norwegian_Air_Shuttle": 8610,
+            "y-yct-001000780": 7167,
+            "w-London": 7580,
+            "w-Northern_California": 6320,
+            "w-Boeing_787_Dreamliner": 5270
+        },
+        "doc_len": 263,
+        "dam_score": 0.463521,
+        "adult": 0.0012150700204074383,
+        "dwell_time": 164.49600219726562,
+        "uuid": "d73371e8-7442-383a-97ea-fdb88108ac49",
+        "property_gmps": {},
+        "publisher": "SFChronicle.com",
+        "pre_game": 0.0,
+        "dma_woeids": ["24701119"],
+        "fp_experiments": ["s2domains", "sieve_homepage_top", "sieve_sports_top", "sieve_finance_top", "localdomains01", "sieve_offnet", "sieve_offnet_whitelist"],
+        "content_type": "sv",
+        "city_woeid_set": {
+            "2487956": 1
+        },
+        "timeline_ids": ["6936d2cb-c5e6-46cc-a392-b5c59957ff5f", "fecd8933-e3b7-4147-898a-9dad99ca7429", "d799fbfb-df76-45ca-8a00-d12a251b180e", "7eb9af3b-4dc3-422f-8923-89aa588422a1", "b6cd34bf-a300-48f0-92a5-e5f61c4842c6", "911e01cc-e342-4623-b492-091da7861632", "7d2ec05f-4e90-4279-bd2d-7c42dfef6a32", "2be16a5e-6a78-4a94-835d-07d558ac17c8"],
+        "embargo": 0,
+        "story_cluster": "d73371e8-7442-383a-97ea-fdb88108ac49",
+        "appropriateness": 0,
+        "nrt_clicks_by_context": {},
+        "bazooka": {
+            "bz-bt__miscellaneous/social_science": 5952,
+            "bz-bt__miscellaneous/news": 8226,
+            "bz-bt__travel/air_and_charter": 6568,
+            "bz-bt__travel": 7016,
+            "bz-bt__miscellaneous/people/authors": 4114
+        },
+        "gravitas": -1.0,
+        "summarizability": 0.12103547900915146,
+        "nrt_views_by_context": {},
+        "publish_time": 1565611277000,
+        "publisher_id": "www.sfchronicle.com",
+        "url": "https://www.sfchronicle.com/news/world/article/Norwegian-plane-damaged-on-pushback-from-London-s-14297487.php",
+        "title_tokens": {
+            "pushback": 5000,
+            "plane": 5000,
+            "london": 5000,
+            "gatwick": 5000,
+            "norwegian": 5000
+        },
+        "sourceid": "www.sfchronicle.com",
+        "local_score": 0.0,
+        "category_labels": {
+            "World": 10000
+        },
+        "spam": 0.0492216981947422
+    }
+}

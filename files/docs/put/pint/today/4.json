@@ -1,0 +1,35 @@
+{
+	"put": "id:slingstone:today::today-5eeaefef-f035-4ca1-933c-2c7d30c9fa8a",
+	"fields": {
+		"expire_time": 1565906465000,
+		"title": "Jones ready for England 'family fall-out' at World Cup",
+		"region": "SG",
+		"property_valids": ["news_sg_en-sg"],
+		"modules": ["needtoknow"],
+		"cluster_topic": "5dead4d0-b485-327c-9a87-66fedc41757f",
+		"language": "en",
+		"sites": ["exclusive_none"],
+		"devices": ["exclusive_none"],
+		"deleted": 0,
+		"cap_features": {
+			"w-Rugby_World_Cup": 9580,
+			"y-yct-001000001": 9993,
+			"w-England": 8230,
+			"y-yct-001000900": 9211
+		},
+		"categories": ["default"],
+		"uuid": "5eeaefef-f035-4ca1-933c-2c7d30c9fa8a",
+		"cauuid": "5dead4d0-b485-327c-9a87-66fedc41757f",
+		"loc_constraints": {},
+		"pin_position": -1,
+		"fp_experiments": ["strategy_false", "ymedia:index=source:creatr", "ymedia:index=1", "strategy_editorial_packaging"],
+		"tier_duration": [600, 21600],
+		"design_type": [1],
+		"embargo": 1565647265000,
+		"subsites": ["sports"],
+		"publish_time": 1565647265000,
+		"url": "https://sg.sports.yahoo.com/news/jones-ready-england-family-fall-world-cup-215327822--spt.html",
+		"tier": 0,
+		"eah_id": "id-5eeaefef-f035-4ca1-933c-2c7d30c9fa8a"
+	}
+}

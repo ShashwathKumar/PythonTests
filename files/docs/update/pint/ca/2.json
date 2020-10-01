@@ -1,0 +1,131 @@
+{
+    "update": "id:slingstone:ca::80feba35-c11c-3786-890f-aa2cb05b00f4",
+    "create": true,
+    "fields": {
+        "uuid": {
+            "assign": "80feba35-c11c-3786-890f-aa2cb05b00f4"
+        },
+        "hosted": {
+            "assign": "true"
+        },
+        "publisher": {
+            "assign": "The Associated Press"
+        },
+        "primary_categories": {
+            "assign": ["sports-US"]
+        },
+        "title": {
+            "assign": "Penny Hardaway, Jerry Stackhouse bring NBA edge to Tennessee"
+        },
+        "fp_experiments": {
+            "assign": ["ga", "hosted_ga"]
+        },
+        "content_type": {
+            "assign": "ca_st"
+        },
+        "property_valids": {
+            "assign": ["yfinance-en_us", "yfinance-en_ca", "yfinance-en_my", "yfinance-en_ph", "ynews-en_us", "ynews-en_ca", "ynews-en_my", "ynews-en_ph", "ysports-en_us", "ysports-en_ca", "ysports-en_my", "ysports-en_ph", "yhomerun-en_us", "yfrontpage-en_us", "yfrontpage-en_ca", "yfrontpage-en_my", "yfrontpage-en_ph", "ylifestyles-en_us", "ylifestyles-en_ca", "ylifestyles-en_my", "ylifestyles-en_ph", "ylifestyle-en_us", "ylifestyle-en_ca", "ylifestyle-en_my", "ylifestyle-en_ph", "ytech-en_us", "ytech-en_ca", "ytech-en_my", "ytech-en_ph", "att-en_us", "yatt-en_ca", "yatt-en_my", "yatt-en_ph", "yhighlander-en_us", "yhighlander-en_ca", "yhighlander-en_my", "yhighlander-en_ph", "yfrontpagemorevideos-en_us", "yfrontpagemorevideos-en_ca", "yfrontpagemorevideos-en_my", "yfrontpagemorevideos-en_ph", "yall-en_us", "yall-en_ca", "yall-en_my", "yall-en_ph", "ycelebrity-en_us", "ycelebrity-en_ca", "ycelebrity-en_my", "ycelebrity-en_ph", "ybeauty-en_us", "ybeauty-en_ca", "ybeauty-en_my", "ybeauty-en_ph", "ystyle-en_us", "ystyle-en_ca", "ystyle-en_my", "ystyle-en_ph", "ycricket-en_us", "ycricket-en_ca", "ycricket-en_my", "ycricket-en_ph", "ymovies-en_us", "ymovies-en_ca", "ymovies-en_my", "ymovies-en_ph", "yentertainment-en_us", "yentertainment-en_ca", "yentertainment-en_my", "yentertainment-en_ph", "ynewsroom-en_us", "ynewsroom-en_ca", "ynewsroom-en_my", "ynewsroom-en_ph", "ynow-en_us", "ynow-en_ca", "ynow-en_my", "ynow-en_ph", "yvideo-en_us", "yvideo-en_ca", "yvideo-en_my", "yvideo-en_ph", "ymakers-en_us", "ymakers-en_ca", "ymakers-en_my", "ymakers-en_ph", "ymoney-en_us", "ymoney-en_ca", "ymoney-en_my", "ymoney-en_ph", "aolfrontpage-en_us"]
+        },
+        "embargo": {
+            "assign": 1565630034000
+        },
+        "cluster_topic": {
+            "assign": "f20782ce-83a5-4593-bac3-24d535e6f52e"
+        },
+        "ymedia_category": {
+            "assign": ["yct:001001076"]
+        },
+        "topics_with_weights": {
+            "assign": {}
+        },
+        "quality": {
+            "assign": 0.3452720046043396
+        },
+        "publish_time": {
+            "assign": 1565630034000
+        },
+        "cap_features": {
+            "assign": {
+                "ph-Whitehaven High School": 2810,
+                "w-Coach_%28sport%29": 7930,
+                "ph-Matt Ryan": 2800,
+                "ph-Ron Mercer": 2130,
+                "ph-Jerry Stackhouse": 9940,
+                "ph-Toronto": 540,
+                "ph-one championship": 430,
+                "w-Coach_%28TV_series%29": 4790,
+                "ph-public university": 470,
+                "ph-attendance": 60,
+                "ph-basketball coach": 3340,
+                "ph-1996 national championship": 4330,
+                "ph-college experience": 990,
+                "ph-Mike Miller": 2870,
+                "ph-the Commodores": 2060,
+                "w-Jerry_Stackhouse": 9940,
+                "y-yct-001000001": 9996,
+                "ph-NASHVILLE": 2750,
+                "ph-private university": 540,
+                "ph-Interstate 40 in Tennessee": 6900,
+                "ph-Ricardo Patton": 2410,
+                "ph-head coaching job": 3770,
+                "ph-San Diego State": 2160,
+                "ph-Chattanooga": 280,
+                "ph-basketball": 3490,
+                "w-Penny_Hardaway": 9940,
+                "ph-tenure": 60,
+                "ph-recruiting class": 3750,
+                "ph-assistant coach": 7930,
+                "ph-the game": 130,
+                "y-yct-001000012": 9948,
+                "w-Scottie_Pippen": 5000,
+                "ph-Penny Hardaway": 9940,
+                "ph-Memphis Grizzlies": 9620,
+                "ph-Adam Mazarei": 3300,
+                "w-Interstate_40_in_Tennessee": 6900,
+                "ph-experience": 120,
+                "ph-academic standards": 390,
+                "ph-North Carolina": 2260,
+                "ph-Pippen": 5000,
+                "ph-NBA": 9730,
+                "ph-coaching staff": 1790,
+                "ph-grade point average": 210,
+                "w-Malcolm_Turner": 4040,
+                "w-NBA_G_League": 7580,
+                "ph-Tennessee": 8370,
+                "ph-Malcolm Turner": 4040,
+                "w-Memphis_Grizzlies": 9620,
+                "ph-athletic director": 460,
+                "ph-California": 290,
+                "w-1996_Florida_Gators_football_team": 4330,
+                "ph-UCLA": 440,
+                "ph-G League": 7580,
+                "ph-fanfare": 60,
+                "w-Tennessee": 8370,
+                "ph-Colorado": 260,
+                "ph-Kentucky": 580,
+                "ph-coach": 4790,
+                "w-National_Basketball_Association": 9730
+            }
+        },
+        "publisher_id": {
+            "assign": "sports.ap.org"
+        },
+        "provider_ycts": {
+            "assign": {
+                "py-yct:001001076": 1
+            }
+        },
+        "doc_len": {
+            "assign": 1222
+        },
+        "sourceid": {
+            "assign": "sports.ap.org"
+        },
+        "adult": {
+            "assign": 0.0021123799961060286
+        },
+        "spam": {
+            "assign": 0.24560999870300293
+        }
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "update": "id:slingstone:ca::792f0c6b-8d90-3929-aaa8-c2c20dc0ac4a",
+    "create": true,
+    "fields": {
+        "uuid": {
+            "assign": "792f0c6b-8d90-3929-aaa8-c2c20dc0ac4a"
+        },
+        "hosted": {
+            "assign": "true"
+        },
+        "publisher": {
+            "assign": "Agencia EFE"
+        },
+        "primary_categories": {
+            "assign": ["finance-ES"]
+        },
+        "title": {
+            "assign": "La bolsa de Buenos Aires se derrumba un 32,49 % por efecto de las primarias"
+        },
+        "fp_experiments": {
+            "assign": ["ga", "hosted_ga"]
+        },
+        "content_type": {
+            "assign": "ca_st"
+        },
+        "property_valids": {
+            "assign": ["yfinance-es_es", "ynews-es_es", "ysports-es_es", "yfrontpage-es_es", "ylifestyles-es_es", "ylifestyle-es_es", "ytech-es_es", "yatt-es_es", "yhighlander-es_es", "yfrontpagemorevideos-es_es", "yall-es_es", "ycelebrity-es_es", "ybeauty-es_es", "ystyle-es_es", "ycricket-es_es", "ymovies-es_es", "yentertainment-es_es", "ynewsroom-es_es", "ynow-es_es", "yvideo-es_es", "ymakers-es_es", "ymoney-es_es"]
+        },
+        "embargo": {
+            "assign": 1565630298000
+        },
+        "cluster_topic": {
+            "assign": "615d28ff-3fc0-4b27-bee1-1029e738ced9"
+        },
+        "ymedia_category": {
+            "assign": ["yct:001000339"]
+        },
+        "topics_with_weights": {
+            "assign": {}
+        },
+        "publish_time": {
+            "assign": 1565630298000
+        },
+        "cap_features": {
+            "assign": {
+                "ph-riesgo": 130,
+                "w-Mauricio_Macri": 9650,
+                "ph-EFE": 4120,
+                "ph-peso": 220,
+                "w-Buenos_Aires": 9750,
+                "ph-octubre": 500,
+                "w-EFE": 4120,
+                "ph-Buenos Aires": 9750,
+                "ph-caída": 350,
+                "ph-Transener": 440,
+                "ph-Edenor": 2970,
+                "ph-la jornada": 1380,
+                "ph-dólar": 540,
+                "ph-Mauricio Macri": 9650
+            }
+        },
+        "publisher_id": {
+            "assign": "efe.com.es"
+        },
+        "provider_ycts": {
+            "assign": {
+                "py-yct:001000339": 1
+            }
+        },
+        "doc_len": {
+            "assign": 233
+        },
+        "sourceid": {
+            "assign": "efe.com.es"
+        }
+    }
+}

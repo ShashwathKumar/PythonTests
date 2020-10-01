@@ -1,0 +1,185 @@
+{
+    "update": "id:slingstone:ca::3f5d1753-8407-3669-b502-8ee25afe9dec",
+    "create": true,
+    "fields": {
+        "hosted": {
+            "assign": "true"
+        },
+        "topicSet": {
+            "assign": {
+                "aecf9048-d985-3029-b71c-916ecd0b503e": 109317,
+                "861f5f60-1e1e-3934-875e-eeb9ca08e4eb": 109321
+            }
+        },
+        "title": {
+            "assign": "Simone Biles' Historic Gymnastics Routine In Glorious Slo-Mo Is Art in Its Finest Form"
+        },
+        "city_woeids": {
+            "assign": []
+        },
+        "property_valids": {
+            "assign": ["yfinance-en_us", "ynews-en_us", "ysports-en_us", "yhomerun-en_us", "yfrontpage-en_us", "ylifestyles-en_us", "ylifestyle-en_us", "ytech-en_us", "att-en_us", "yhighlander-en_us", "yfrontpagemorevideos-en_us", "yall-en_us", "ycelebrity-en_us", "ybeauty-en_us", "ystyle-en_us", "ycricket-en_us", "ymovies-en_us", "yentertainment-en_us", "ynewsroom-en_us", "ynow-en_us", "yvideo-en_us", "ymakers-en_us", "ymoney-en_us", "aolfrontpage-en_us"]
+        },
+        "newsy": {
+            "assign": 0.5426830053329468
+        },
+        "nrtgmp": {
+            "assign": 0.0
+        },
+        "quality": {
+            "assign": 0.3452720046043396
+        },
+        "cap_features": {
+            "assign": {
+                "y-yct-001000860": 10000,
+                "y-yct-001000001": 9846,
+                "w-Simone_Biles": 9970,
+                "w-Historic_Performances_Recorded_at_the_Monterey_International_Pop_Festival": 4550,
+                "w-Gymnastics": 5340
+            }
+        },
+        "provider_ycts": {
+            "assign": {
+                "py-yct:001000295": 1,
+                "py-yct:001000661": 1,
+                "py-yct:001000001": 1,
+                "py-yct:001000123": 1,
+                "py-yct:001000395": 1,
+                "py-yct:001000742": 1,
+                "py-yct:001000768": 1
+            }
+        },
+        "doc_len": {
+            "assign": 271
+        },
+        "dam_score": {
+            "assign": 0.902408
+        },
+        "adult": {
+            "assign": 0.06666669994592667
+        },
+        "dwell_time": {
+            "assign": 100.39600372314453
+        },
+        "uuid": {
+            "assign": "3f5d1753-8407-3669-b502-8ee25afe9dec"
+        },
+        "property_gmps": {
+            "assign": {
+                "hrnative": 0,
+                "omg": 0,
+                "nrt_gmp_metro": 0
+            }
+        },
+        "publisher": {
+            "assign": "Time"
+        },
+        "pre_game": {
+            "assign": 0.0
+        },
+        "primary_categories": {
+            "assign": ["news-US"]
+        },
+        "dma_woeids": {
+            "assign": []
+        },
+        "fp_experiments": {
+            "assign": ["ga", "hosted_ga"]
+        },
+        "content_type": {
+            "assign": "ca_st"
+        },
+        "city_woeid_set": {
+            "assign": {}
+        },
+        "tickers": {
+            "assign": {}
+        },
+        "timeline_ids": {
+            "assign": ["9af80964-f27b-4149-a082-ee759a86e745", "4b294c84-ed16-4a1f-8fb8-f5f207949c43", "898c33eb-50fa-4a41-ab89-70e95a7e4894", "e476e9ce-6987-44b7-b323-7e112b60044d", "b4e471d9-9350-481b-8455-3a31c593f491", "0fac5396-f1e7-4180-856c-3946a8d59111", "57f122bc-54f9-4ea0-9504-99c6682ff591", "addaa418-4857-4dad-9891-b51961d20c89", "fbbf2d5d-4a6b-4f2c-9724-b1017b1d0b35", "0c429909-6234-49af-89c5-dc8e50e001f7"]
+        },
+        "embargo": {
+            "assign": 1565624279000
+        },
+        "story_cluster": {
+            "assign": "3f5d1753-8407-3669-b502-8ee25afe9dec"
+        },
+        "appropriateness": {
+            "assign": 0
+        },
+        "nrt_clicks_by_context": {
+            "assign": {
+                "hrnative": 13,
+                "omg": 0,
+                "nrt_gmp_metro": 19
+            }
+        },
+        "primary_categories_set": {
+            "assign": {
+                "news-US": 1
+            }
+        },
+        "bazooka": {
+            "assign": {
+                "bz-bt__miscellaneous/arts_and_humanities": 2411,
+                "bz-bt__miscellaneous/people": 1681,
+                "bz-bt__sports": 8865,
+                "bz-bt__miscellaneous/people/athletes": 5721
+            }
+        },
+        "ymedia_category": {
+            "assign": ["yct:001000742", "ymedia:category=000000133", "yct:001000123", "ymedia:category=100000002", "ymedia:category=000000029", "yct:001000661", "ymedia:category=000000007", "yct:001000001", "yct:001000395", "yct:001000768", "ymedia:category=100000008", "yct:001000295", "ymedia:category=000000175"]
+        },
+        "gravitas": {
+            "assign": 0.9184119701385498
+        },
+        "author": {
+            "assign": "cady_lang"
+        },
+        "summarizability": {
+            "assign": 0.9543597102165222
+        },
+        "nrt_views_by_context": {
+            "assign": {
+                "hrnative": 0,
+                "omg": 1,
+                "nrt_gmp_metro": 46
+            }
+        },
+        "publish_time": {
+            "assign": 1565624279000
+        },
+        "publisher_id": {
+            "assign": "time_72"
+        },
+        "url": {
+            "assign": "https://news.yahoo.com/simone-biles-historic-gymnastics-routine-153759964.html"
+        },
+        "title_tokens": {
+            "assign": {
+                "art": 5000,
+                "mo": 5000,
+                "routine": 5000,
+                "historic": 5000,
+                "form": 5000,
+                "fine": 5000,
+                "slo": 5000,
+                "glorious": 5000,
+                "simone": 5000,
+                "gymnastics": 5000,
+                "bile": 5000
+            }
+        },
+        "sourceid": {
+            "assign": "time_72"
+        },
+        "category_labels": {
+            "assign": {
+                "Sports": 10000
+            }
+        },
+        "spam": {
+            "assign": 0.07248940318822861
+        }
+    }
+}

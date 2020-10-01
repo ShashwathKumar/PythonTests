@@ -1,0 +1,83 @@
+{
+	"update": "id:slingstone:today::37639451-1b15-3659-ab65-8fd1a92cf319",
+	"create": true,
+	"fields": {
+		"expire_time": {
+			"assign": 1565719666000
+		},
+		"title": {
+			"assign": "El último tesoro hallado en Pompeya"
+		},
+		"region": {
+			"assign": "US"
+		},
+		"property_valids": {
+			"assign": ["fp_us_es-us"]
+		},
+		"modules": {
+			"assign": ["needtoknow"]
+		},
+		"cluster_topic": {
+			"assign": "10e3a939-4646-3afc-aae9-78512016bae0"
+		},
+		"language": {
+			"assign": "es"
+		},
+		"sites": {
+			"assign": ["exclusive_none"]
+		},
+		"devices": {
+			"assign": ["exclusive_none"]
+		},
+		"deleted": {
+			"assign": 0
+		},
+		"cap_features": {
+			"assign": {
+				"w-EFE": 8280
+			}
+		},
+		"categories": {
+			"assign": ["History"]
+		},
+		"uuid": {
+			"assign": "37639451-1b15-3659-ab65-8fd1a92cf319"
+		},
+		"cauuid": {
+			"assign": "10e3a939-4646-3afc-aae9-78512016bae0"
+		},
+		"loc_constraints": {
+			"assign": {}
+		},
+		"pin_position": {
+			"assign": -1
+		},
+		"fp_experiments": {
+			"assign": ["ycoke:History", "strategy_false", "ymedia:index=source:creatr", "ymedia:index=1", "strategy_editorial_packaging"]
+		},
+		"tier_duration": {
+			"assign": [600, 21600]
+		},
+		"design_type": {
+			"assign": [1]
+		},
+		"embargo": {
+			"assign": 1565633266000
+		},
+		"subsites": {
+			"assign": ["home"]
+		},
+		"publish_time": {
+			"assign": 1565633266000
+		},
+		"url": {
+			"assign": "https://es-us.noticias.yahoo.com/amuletos-contra-la-mala-suerte-el-ultimo-y-sorprendente-hallazgo-en-pompeya-180425292.html"
+		},
+		"tier": {
+			"assign": 0
+		},
+		"eah_id": {
+			"assign": "id-37639451-1b15-3659-ab65-8fd1a92cf319"
+		}
+	}
+}

@@ -1,0 +1,122 @@
+{
+    "update": "id:slingstone:offnet::4f771df3-b054-3fae-a981-a76e9c66834b",
+    "create": true,
+    "fields": {
+        "uuid": {
+            "assign": "4f771df3-b054-3fae-a981-a76e9c66834b"
+        },
+        "hosted": {
+            "assign": "false"
+        },
+        "publisher": {
+            "assign": "ZDNet"
+        },
+        "title": {
+            "assign": "Cloud Atlas threat group updates weaponry with polymorphic malware"
+        },
+        "fp_experiments": {
+            "assign": ["s2domains", "hdt01", "offnet_whitelist", "rss_sg_01", "lcp_us_01", "sieve_homepage_top", "dam01", "hattrickga", "sieve_finance_top", "sieve_offnet", "sieve_offnet_whitelist"]
+        },
+        "content_type": {
+            "assign": "sv"
+        },
+        "property_valids": {
+            "assign": ["yfinance-en_us", "yfinance-en_in", "yfinance-en_ca", "yfinance-en_gb", "yfinance-en_ie", "yfinance-en_za", "yfinance-en_sg", "yfinance-en_ae", "yfinance-en_au", "yfinance-en_nz", "yfinance-en_my", "yfinance-en_ph", "ynews-en_us", "ynews-en_in", "ynews-en_ca", "ynews-en_gb", "ynews-en_ie", "ynews-en_za", "ynews-en_sg", "ynews-en_ae", "ynews-en_au", "ynews-en_nz", "ynews-en_my", "ynews-en_ph", "ysports-en_us", "ysports-en_in", "ysports-en_ca", "ysports-en_gb", "ysports-en_ie", "ysports-en_za", "ysports-en_sg", "ysports-en_ae", "ysports-en_au", "ysports-en_nz", "ysports-en_my", "ysports-en_ph", "yhomerun-en_us", "yfrontpage-en_us", "yfrontpage-en_in", "yfrontpage-en_ca", "yfrontpage-en_gb", "yfrontpage-en_ie", "yfrontpage-en_za", "yfrontpage-en_sg", "yfrontpage-en_ae", "yfrontpage-en_au", "yfrontpage-en_nz", "yfrontpage-en_my", "yfrontpage-en_ph", "ylifestyles-en_us", "ylifestyles-en_in", "ylifestyles-en_ca", "ylifestyles-en_gb", "ylifestyles-en_ie", "ylifestyles-en_za", "ylifestyles-en_sg", "ylifestyles-en_ae", "ylifestyles-en_au", "ylifestyles-en_nz", "ylifestyles-en_my", "ylifestyles-en_ph", "ylifestyle-en_us", "ylifestyle-en_in", "ylifestyle-en_ca", "ylifestyle-en_gb", "ylifestyle-en_ie", "ylifestyle-en_za", "ylifestyle-en_sg", "ylifestyle-en_ae", "ylifestyle-en_au", "ylifestyle-en_nz", "ylifestyle-en_my", "ylifestyle-en_ph", "ytech-en_us", "ytech-en_in", "ytech-en_ca", "ytech-en_gb", "ytech-en_ie", "ytech-en_za", "ytech-en_sg", "ytech-en_ae", "ytech-en_au", "ytech-en_nz", "ytech-en_my", "ytech-en_ph", "att-en_us", "yatt-en_in", "yatt-en_ca", "yatt-en_gb", "yatt-en_ie", "yatt-en_za", "yatt-en_sg", "yatt-en_ae", "yatt-en_au", "yatt-en_nz", "yatt-en_my", "yatt-en_ph", "yhighlander-en_us", "yhighlander-en_in", "yhighlander-en_ca", "yhighlander-en_gb", "yhighlander-en_ie", "yhighlander-en_za", "yhighlander-en_sg", "yhighlander-en_ae", "yhighlander-en_au", "yhighlander-en_nz", "yhighlander-en_my", "yhighlander-en_ph", "yfrontpagemorevideos-en_us", "yfrontpagemorevideos-en_in", "yfrontpagemorevideos-en_ca", "yfrontpagemorevideos-en_gb", "yfrontpagemorevideos-en_ie", "yfrontpagemorevideos-en_za", "yfrontpagemorevideos-en_sg", "yfrontpagemorevideos-en_ae", "yfrontpagemorevideos-en_au", "yfrontpagemorevideos-en_nz", "yfrontpagemorevideos-en_my", "yfrontpagemorevideos-en_ph", "yall-en_us", "yall-en_in", "yall-en_ca", "yall-en_gb", "yall-en_ie", "yall-en_za", "yall-en_sg", "yall-en_ae", "yall-en_au", "yall-en_nz", "yall-en_my", "yall-en_ph", "ycelebrity-en_us", "ycelebrity-en_in", "ycelebrity-en_ca", "ycelebrity-en_gb", "ycelebrity-en_ie", "ycelebrity-en_za", "ycelebrity-en_sg", "ycelebrity-en_ae", "ycelebrity-en_au", "ycelebrity-en_nz", "ycelebrity-en_my", "ycelebrity-en_ph", "ygma-en_us", "ygma-en_in", "ygma-en_ca", "ygma-en_gb", "ygma-en_ie", "ygma-en_za", "ygma-en_sg", "ygma-en_ae", "ygma-en_au", "ygma-en_nz", "ygma-en_my", "ygma-en_ph", "ybeauty-en_us", "ybeauty-en_in", "ybeauty-en_ca", "ybeauty-en_gb", "ybeauty-en_ie", "ybeauty-en_za", "ybeauty-en_sg", "ybeauty-en_ae", "ybeauty-en_au", "ybeauty-en_nz", "ybeauty-en_my", "ybeauty-en_ph", "ystyle-en_us", "ystyle-en_in", "ystyle-en_ca", "ystyle-en_gb", "ystyle-en_ie", "ystyle-en_za", "ystyle-en_sg", "ystyle-en_ae", "ystyle-en_au", "ystyle-en_nz", "ystyle-en_my", "ystyle-en_ph", "ycricket-en_us", "ycricket-en_in", "ycricket-en_ca", "ycricket-en_gb", "ycricket-en_ie", "ycricket-en_za", "ycricket-en_sg", "ycricket-en_ae", "ycricket-en_au", "ycricket-en_nz", "ycricket-en_my", "ycricket-en_ph", "ymovies-en_us", "ymovies-en_in", "ymovies-en_ca", "ymovies-en_gb", "ymovies-en_ie", "ymovies-en_za", "ymovies-en_sg", "ymovies-en_ae", "ymovies-en_au", "ymovies-en_nz", "ymovies-en_my", "ymovies-en_ph", "yentertainment-en_us", "yentertainment-en_in", "yentertainment-en_ca", "yentertainment-en_gb", "yentertainment-en_ie", "yentertainment-en_za", "yentertainment-en_sg", "yentertainment-en_ae", "yentertainment-en_au", "yentertainment-en_nz", "yentertainment-en_my", "yentertainment-en_ph", "ynewsroom-en_us", "ynewsroom-en_in", "ynewsroom-en_ca", "ynewsroom-en_gb", "ynewsroom-en_ie", "ynewsroom-en_za", "ynewsroom-en_sg", "ynewsroom-en_ae", "ynewsroom-en_au", "ynewsroom-en_nz", "ynewsroom-en_my", "ynewsroom-en_ph", "huffpost-en_us", "ynow-en_us", "ynow-en_in", "ynow-en_ca", "ynow-en_gb", "ynow-en_ie", "ynow-en_za", "ynow-en_sg", "ynow-en_ae", "ynow-en_au", "ynow-en_nz", "ynow-en_my", "ynow-en_ph", "yvideo-en_us", "yvideo-en_in", "yvideo-en_ca", "yvideo-en_gb", "yvideo-en_ie", "yvideo-en_za", "yvideo-en_sg", "yvideo-en_ae", "yvideo-en_au", "yvideo-en_nz", "yvideo-en_my", "yvideo-en_ph", "ymakers-en_us", "ymakers-en_in", "ymakers-en_ca", "ymakers-en_gb", "ymakers-en_ie", "ymakers-en_za", "ymakers-en_sg", "ymakers-en_ae", "ymakers-en_au", "ymakers-en_nz", "ymakers-en_my", "ymakers-en_ph", "ymoney-en_us", "ymoney-en_in", "ymoney-en_ca", "ymoney-en_gb", "ymoney-en_ie", "ymoney-en_za", "ymoney-en_sg", "ymoney-en_ae", "ymoney-en_au", "ymoney-en_nz", "ymoney-en_my", "ymoney-en_ph"]
+        },
+        "cluster_topic": {
+            "assign": "4f771df3-b054-3fae-a981-a76e9c66834b"
+        },
+        "ymedia_category": {
+            "assign": []
+        },
+        "topics_with_weights": {
+            "assign": {}
+        },
+        "quality": {
+            "assign": 0.3452720046043396
+        },
+        "publish_time": {
+            "assign": 1565629556000
+        },
+        "cap_features": {
+            "assign": {
+                "ph-phishing scams": 3420,
+                "ph-contact list": 1580,
+                "w-Weapon": 5200,
+                "w-Threat_actor": 4690,
+                "ph-lateral movement": 1580,
+                "w-Malware": 7220,
+                "ph-the White House": 2800,
+                "ph-credentials": 2120,
+                "ph-Cyber security": 5200,
+                "ph-ZDNet": 1210,
+                "ph-Google": 2430,
+                "ph-inception": 1050,
+                "w-Microsoft_Office": 5810,
+                "ph-vulnerability": 2120,
+                "w-Cloud_computing": 4860,
+                "ph-Turkey": 1210,
+                "ph-DARPA": 1050,
+                "w-Computer_security": 5200,
+                "ph-48 hours": 900,
+                "ph-Russia": 2400,
+                "ph-voting machine": 1780,
+                "ph-Portugal": 1230,
+                "ph-antivirus": 1580,
+                "w-Arbitrary_code_execution": 6130,
+                "ph-malware": 7220,
+                "ph-The Cloud": 4860,
+                "ph-Romania": 1210,
+                "ph-VBS": 2800,
+                "ph-Zscaler": 1010,
+                "ph-cryptocurrency": 1530,
+                "ph-Kazakhstan": 1450,
+                "ph-weaponry": 5200,
+                "ph-Capital One": 1050,
+                "ph-remote code execution": 6130,
+                "ph-industries": 1010,
+                "ph-Fortune 500": 600,
+                "ph-London": 1050,
+                "ph-GitHub": 1530,
+                "ph-Microsoft Office": 5810,
+                "ph-Cloudflare": 1580,
+                "ph-the government": 3710,
+                "ph-Defcon": 1210,
+                "ph-SMS messages": 1580,
+                "ph-PowerShell": 1230,
+                "ph-YouTube": 1050,
+                "ph-Indicators of Compromise": 5070,
+                "ph-WhatsApp": 1210,
+                "ph-international economics": 2400,
+                "ph-target": 1580,
+                "w-Indicator_of_compromise": 5070,
+                "ph-TechRepublic": 1450,
+                "ph-credit card": 1050,
+                "ph-communication channel": 2120,
+                "ph-8chan": 1010,
+                "ph-threat actors": 4690,
+                "ph-Ukraine": 1210,
+                "ph-basic operating system": 1780,
+                "y-yct-001000931": 9389
+            }
+        },
+        "publisher_id": {
+            "assign": "www.zdnet.com"
+        },
+        "provider_ycts": {
+            "assign": {}
+        },
+        "doc_len": {
+            "assign": 832
+        },
+        "sourceid": {
+            "assign": "www.zdnet.com"
+        },
+        "adult": {
+            "assign": 0.0012150700204074383
+        },
+        "spam": {
+            "assign": 0.0544871985912323
+        }
+    }
+}

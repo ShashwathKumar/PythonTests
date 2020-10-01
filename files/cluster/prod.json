@@ -1,0 +1,1383 @@
+[
+  {
+    "clusterTag": "top_news",
+    "sourceChannel": "streamcontentpool:tn",
+    "destinations": [
+      "cluster_carmot"
+    ],
+    "lang": "en-US",
+    "region": "US",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "general",
+    "sourceChannel": "streamcontentpool",
+    "fpExperiments": [
+      "ga",
+      "magazine",
+      "tumblr_ca",
+      "dam01",
+      "hattrickga",
+      "partner_aol",
+      "partner_tcrunch_engadget",
+      "s2domains",
+      "s2domains02",
+      "localnewsdomains"
+    ],
+    "destinations": [
+      "cluster_carmot",
+      "feature_server",
+      "article_carmot"
+    ],
+    "lang": "en-US",
+    "region": "US",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "us_ca",
+    "sourceChannel": "streamcontentpool",
+    "fpExperiments": [
+      "ga"
+    ],
+    "destinations": [
+      "feature_server"
+    ],
+    "lang": "en-US",
+    "region": "US",
+    "relatedStoriesFsKey": ":us_ca:rs:v05",
+    "relatedContentFsKey": ":us_ca:rc:v05",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "us_hosted_ca",
+    "sourceChannel": "streamcontentpool",
+    "fpExperiments": [
+      "hosted_ga"
+    ],
+    "destinations": [
+      "feature_server"
+    ],
+    "lang": "en-US",
+    "region": "US",
+    "relatedStoriesFsKey": ":us_hosted_ca:rs:v05",
+    "relatedContentFsKey": ":us_hosted_ca:rc:v05",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "no_clustering",
+    "sourceChannel": "streamcontentpool:skip-clustering",
+    "destinations": [
+      "cluster_carmot"
+    ],
+    "lang": "en-US",
+    "region": "US",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "no_clustering",
+    "sourceChannel": "streamcontentpool:vertical-video",
+    "enableVerticalVideos": true,
+    "destinations": [
+      "cluster_carmot",
+      "feature_server",
+      "article_carmot"
+    ],
+    "lang": "en-US",
+    "region": "US",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "card_top_us_news",
+    "sourceChannel": "streamcontentpool:ctn",
+    "destinations": [
+      "cluster_carmot"
+    ],
+    "lang": "en-US",
+    "region": "US",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "card_us_sports",
+    "sourceChannel": "streamcontentpool:csport",
+    "destinations": [
+      "cluster_carmot"
+    ],
+    "lang": "en-US",
+    "region": "US",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "card_us_finance",
+    "sourceChannel": "streamcontentpool:cfinance",
+    "destinations": [
+      "cluster_carmot"
+    ],
+    "lang": "en-US",
+    "region": "US",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "card_us_celebrity",
+    "sourceChannel": "streamcontentpool:ccelebrity",
+    "destinations": [
+      "cluster_carmot"
+    ],
+    "lang": "en-US",
+    "region": "US",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "card_us_news",
+    "sourceChannel": "streamcontentpool:cusnews",
+    "destinations": [
+      "cluster_carmot"
+    ],
+    "lang": "en-US",
+    "region": "US",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "card_world_news",
+    "sourceChannel": "streamcontentpool:cworld",
+    "destinations": [
+      "cluster_carmot"
+    ],
+    "lang": "en-US",
+    "region": "US",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "card_us_politics",
+    "sourceChannel": "streamcontentpool:cpolitics",
+    "destinations": [
+      "cluster_carmot"
+    ],
+    "lang": "en-US",
+    "region": "US",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "card_us_technology",
+    "sourceChannel": "streamcontentpool:ctech",
+    "destinations": [
+      "cluster_carmot"
+    ],
+    "lang": "en-US",
+    "region": "US",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "card_us_science",
+    "sourceChannel": "streamcontentpool:cscience",
+    "destinations": [
+      "cluster_carmot"
+    ],
+    "lang": "en-US",
+    "region": "US",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "card_us_entertainment",
+    "sourceChannel": "streamcontentpool:centertainment",
+    "destinations": [
+      "cluster_carmot"
+    ],
+    "lang": "en-US",
+    "region": "US",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "card_us_health",
+    "sourceChannel": "streamcontentpool:chealth",
+    "destinations": [
+      "cluster_carmot"
+    ],
+    "lang": "en-US",
+    "region": "US",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "card_us_video",
+    "sourceChannel": "streamcontentpool:ctn",
+    "destinations": [
+      "cluster_carmot"
+    ],
+    "lang": "en-US",
+    "region": "US",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "intl_pt_br",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "lang": "pt-BR",
+    "region": "BR",
+    "fpExperiments": [
+      "ga",
+      "rss_br_01",
+      "apple_finance_relevance_pt",
+      "ca_finance_relevance_pt"
+    ],
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "card_pt_br",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "cluster_carmot",
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "rss_br_01",
+      "apple_finance_relevance_pt",
+      "ca_finance_relevance_pt"
+    ],
+    "lang": "pt-BR",
+    "region": "BR",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "intl_en_gb",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "rss_gb_01",
+      "apple_finance_relevance_en",
+      "ca_finance_relevance_en"
+    ],
+    "lang": "en-GB",
+    "region": "GB",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "intl_zh_hant_hk",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "lcp_hk_01",
+      "lcp_hk_02",
+      "lcp_hk_03",
+      "apple_finance_relevance_zh-hant",
+      "apple_finance_zh_hant_hongkong"
+    ],
+    "lang": "zh-Hant-HK",
+    "region": "HK",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "intl_zh_hant_tw",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "lcp_tw_01",
+      "lcp_tw_02",
+      "lcp_tw_03",
+      "apple_finance_relevance_zh-hant",
+      "apple_finance_taiwan"
+    ],
+    "lang": "zh-Hant-TW",
+    "region": "TW",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "no_clustering",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "rss_en_ca_01",
+      "rss_en_ca_02",
+      "apple_finance_relevance_en",
+      "apple_finance_canada"
+    ],
+    "lang": "en-CA",
+    "region": "CA",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "intl_en_in",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "enincp01",
+      "apple_finance_relevance_en",
+      "apple_finance_india"
+    ],
+    "lang": "en-IN",
+    "region": "IN",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "intl_fr_fr",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "frfrcp01",
+      "frfrcp02",
+      "apple_finance_relevance_fr",
+      "apple_finance_france"
+    ],
+    "lang": "fr-FR",
+    "region": "FR",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "intl_en_au",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "apple_finance_relevance_en",
+      "apple_finance_australia"
+    ],
+    "lang": "en-AU",
+    "region": "AU",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "intl_en_sg",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "rss_sg_01",
+      "geo_rss_sg",
+      "apple_finance_relevance_en",
+      "apple_finance_singapore"
+    ],
+    "lang": "en-SG",
+    "region": "SG",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "no_clustering",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "dedecp01",
+      "apple_finance_relevance_de",
+      "apple_finance_germany_whitelist"
+    ],
+    "lang": "de-DE",
+    "region": "DE",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "no_clustering",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "rss_it_01",
+      "apple_finance_relevance_it",
+      "apple_finance_italy"
+    ],
+    "lang": "it-IT",
+    "region": "IT",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "no_clustering",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "rss_es_01",
+      "geo_rss_es",
+      "apple_finance_relevance_es",
+      "apple_finance_spain_whitelist"
+    ],
+    "lang": "es-ES",
+    "region": "ES",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "no_clustering",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "rss_vn_01"
+    ],
+    "lang": "vi-VN",
+    "region": "VN",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "no_clustering",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "apple_finance_relevance_en",
+      "apple_finance_new_zealand"
+    ],
+    "lang": "en-NZ",
+    "region": "NZ",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "no_clustering",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "rss_en_ae_01"
+    ],
+    "lang": "en-AE",
+    "region": "AE",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "no_clustering",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "rss_id_01"
+    ],
+    "lang": "id-ID",
+    "region": "ID",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "no_clustering",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "rss_za_01"
+    ],
+    "lang": "en-ZA",
+    "region": "ZA",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "no_clustering",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "eniecp01"
+    ],
+    "lang": "en-IE",
+    "region": "IE",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "no_clustering",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "apple_finance_relevance",
+      "ca_finance_relevance"
+    ],
+    "lang": "moolah-lang",
+    "region": "moolah-region",
+    "skipHrValid": true,
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "no_clustering",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga"
+    ],
+    "lang": "es-US",
+    "region": "US",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "no_clustering",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "rss_fr_ca_01",
+      "rss_fr_ca_02"
+    ],
+    "lang": "fr-CA",
+    "region": "CA",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "no_clustering",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "rss_ar_xa_01"
+    ],
+    "lang": "ar-XA",
+    "region": "XA",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "no_clustering",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga"
+    ],
+    "lang": "en-PH",
+    "region": "PH",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "no_clustering",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "rss_se_01"
+    ],
+    "lang": "sv-SE",
+    "region": "SE",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "no_clustering",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "rss_be_fr_01"
+    ],
+    "lang": "fr-BE",
+    "region": "BE",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "no_clustering",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "rss_ro_01"
+    ],
+    "lang": "ro-RO",
+    "region": "RO",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "no_clustering",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "rss_be_nl_01"
+    ],
+    "lang": "nl-BE",
+    "region": "BE",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "no_clustering",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga",
+      "rss_gr_01"
+    ],
+    "lang": "el-GR",
+    "region": "GR",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  },
+  {
+    "clusterTag": "no_clustering",
+    "sourceChannel": "streamcontentpool",
+    "destinations": [
+      "article_carmot"
+    ],
+    "fpExperiments": [
+      "ga"
+    ],
+    "lang": "en-MY",
+    "region": "MY",
+    "articleAggregatorContext": {
+      "articleClusterMergeDistanceBar": 0.24,
+      "articleClusterMergeDistanceBarForSports": 0.28,
+      "topK": 10,
+      "clusterFeaturesLimit": 50,
+      "port": 4080,
+      "host": "clusters-indexing-tf-idf.stream.global.vespa.yahooapis.com",
+      "freshness": "PT4H",
+      "articleClusterRelatedDistanceBar": 0.11,
+      "multipleRelatedLimit" : 3,
+      "maxArticleSize" : 30,
+      "maxRelatedSize" : 30,
+      "minArticleSizeToKeep" : 15,
+      "minRelatedSizeToKeep" : 10,
+      "maxCombinedSize" : 40
+    }
+  }
+]
